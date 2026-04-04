@@ -23,8 +23,9 @@ export default function Portfolio() {
           <h1 className="hero-title">
             RALPH MICHEAL <span className="text-accent">DEJECACION</span>
           </h1>
+          <h2>UI/UX DESIGNER</h2>
           <p className="hero-desc">
-           Im a UI/UX Designer, focusing on the intersection of clarity and editorial impact.
+           I'm focusing on the intersection of clarity and editorial impact.
           </p>
           <a href="#projects" className="link-underline">VIEW SELECTED WORK</a>
         </div>
@@ -78,7 +79,7 @@ export default function Portfolio() {
             <span className="section-subtitle">PROJECTS</span>
             <h2 className="section-title">Featured Projects</h2>
           </div>
-          <p className="projects-header-desc">A selection of projects where content and container exist in perfect equilibrium.</p>
+        
         </div>
 
         <div className="project-list">
@@ -127,7 +128,7 @@ export default function Portfolio() {
             <div className="contact-details">
               <div className="contact-block">
                 <span className="meta-label">ELECTRONIC MAIL</span>
-                <a href="mailto:hello@gallery-editorial.com" className="contact-email">hello@gallery-editorial.com</a>
+                <a href="https://dejecacionralph@gmail.com" className="contact-email">dejecacionralph@gmail.com</a>
               </div>
               <div className="contact-block">
                 <span className="meta-label">DIGITAL PRESENCE</span>
@@ -144,15 +145,15 @@ export default function Portfolio() {
             <form className="contact-form">
               <div className="form-group">
                 <label>NAME</label>
-                <input type="text" placeholder="Your full name" />
+                <input type="text" placeholder="Your full name" required/>
               </div>
               <div className="form-group">
                 <label>EMAIL ADDRESS</label>
-                <input type="email" placeholder="your@email.com" />
+                <input type="email" placeholder="your@email.com" required />
               </div>
               <div className="form-group">
                 <label>INQUIRY DETAILS</label>
-                <textarea placeholder="Briefly describe your project goals" rows="4"></textarea>
+                <textarea placeholder="Describe your project goals" rows="4"></textarea>
               </div>
               <button type="submit" className="btn-submit">INITIALIZE CONTACT</button>
             </form>
