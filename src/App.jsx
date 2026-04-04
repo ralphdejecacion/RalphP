@@ -30,7 +30,7 @@ export default function Portfolio() {
           <a href="#projects" className="link-underline">VIEW SELECTED WORK</a>
         </div>
         <div className="hero-image-wrapper">
-          <img src="https://images.unsplash.com/photo-1618331835717-801e976710b2?auto=format&fit=crop&w=800&q=80" alt="Hero 3D Character" className="hero-image" />
+          <img src="myprof.png" alt="Hero 3D Character" className="hero-image" />
           <div className="floating-card">
             <h2>01</h2>
             <p>SELECTED WORKS 2024</p>
@@ -47,7 +47,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="about-image-wrapper">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Profile Illustration" className="about-image" />
+          <img src="myprof.png" alt="Profile Illustration" className="about-image" />
         </div>
       </section>
       <section id="skills" className="skills-section section-padding bg-white">
@@ -85,7 +85,7 @@ export default function Portfolio() {
         <div className="project-list">
           <div className="project-row">
             <div className="project-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Monolith App" />
+              <img src="myprofile.png" alt="Monolith App" />
             </div>
             <div className="project-info">
               <span className="project-meta">CONCEPT DESIGN / 2024</span>
@@ -133,10 +133,10 @@ export default function Portfolio() {
               <div className="contact-block">
                 <span className="meta-label">DIGITAL PRESENCE</span>
                 <div className="social-links">
-                  <a href="#">LINKEDIN</a>
-                  <a href="#">BEHANCE</a>
-                  <a href="#">TWITTER / X</a>
-                </div>
+                  <a href="https://github.com/ralphdejecacion">GITHUB</a>
+                  <a href="https://www.linkedin.com/in/ralph-undefined-152b06400">LINKEDIN</a>
+                  <a href="https://www.facebook.com/share/1DHYCcyMcj/">FACEBOOK</a>
+                </div>  
               </div>
             </div>
           </div>
@@ -164,9 +164,9 @@ export default function Portfolio() {
         <div className="footer-content">
           <p>© 2026 RALPH MICHEAL DEJECACION. PORTFOLIO.</p>
           <div className="footer-links">
-            <a href="#">GitHub</a>
-            <a href="#">Facebook</a>
-            <a href="#">Linkedin</a>
+            <a href="https://github.com/ralphdejecacion">GitHub</a>
+            <a href="https://www.facebook.com/share/1DHYCcyMcj/">Facebook</a>
+            <a href="https://www.linkedin.com/in/ralph-undefined-152b06400">Linkedin</a>
           </div>
         </div>
       </footer>
