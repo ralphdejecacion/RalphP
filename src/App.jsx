@@ -51,7 +51,7 @@ export default function Portfolio() {
         </div>
       </section>
       <section id="skills" className="skills-section section-padding bg-white">
-        <div className="skills-header text-center">
+        <div className="skills-header text-left">
           <span className="section-subtitle">SKILLS</span>
           <h2 className="section-title">Skills were I do good.</h2>
         </div>
