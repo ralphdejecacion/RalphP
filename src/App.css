@@ -1,4 +1,4 @@
-
+/* Globals */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -46,7 +46,7 @@ ul {
 
 .text-center { text-align: center; }
 
-
+/* Typography */
 .section-subtitle {
   font-size: 0.75rem;
   letter-spacing: 2px;
@@ -84,7 +84,7 @@ ul {
   opacity: 0.6;
 }
 
-
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -130,23 +130,26 @@ ul {
   cursor: pointer;
 }
 
- 
-
+/* Hero Section */
 .hero-section {
-  display:flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  align-items: flex-start;
+  align-items: center;
   min-height: 80vh;
-  
 }
 
+
 .badge {
-  align-items: left;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding:  1px;
-  margin-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  background: var(--accent-light-green);
+  color: var(--accent-green);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-bottom: 30px;
   letter-spacing: 1px;
 }
 
@@ -154,8 +157,8 @@ ul {
   font-size: 4rem;
   font-weight: 600;
   line-height: 1.1;
-  margin-bottom: 30px;
-} 
+  margin-bottom: 25px;
+}
 
 .hero-desc {
   font-size: 1.1rem;
@@ -196,7 +199,7 @@ ul {
   letter-spacing: 1px;
 }
 
-
+/* About Section */
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -233,7 +236,7 @@ ul {
   object-fit: cover;
 }
 
-
+/* Skills Section */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -267,7 +270,7 @@ ul {
   font-size: 0.95rem;
 }
 
-
+/* Projects Section */
 .projects-header {
   display: flex;
   justify-content: space-between;
@@ -275,6 +278,12 @@ ul {
   margin-bottom: 80px;
 }
 
+.projects-header-desc {
+  color: var(--text-gray);
+  max-width: 300px;
+  text-align: right;
+  font-size: 0.95rem;
+}
 
 .project-row {
   display: flex;

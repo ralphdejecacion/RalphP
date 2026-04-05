@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 export default function Portfolio() {
   return (
     <div className="portfolio-container">
@@ -31,10 +30,7 @@ export default function Portfolio() {
         </div>
         <div className="hero-image-wrapper">
           <img src="myprof.png" alt="Hero 3D Character" className="hero-image" />
-          <div className="floating-card">
-            <h2>01</h2>
-            <p>SELECTED WORKS 2024</p>
-          </div>
+          
         </div>
       </section>
       <section id="about" className="about-section section-padding bg-light">
@@ -77,7 +73,7 @@ export default function Portfolio() {
         <div className="projects-header">
           <div>
             <span className="section-subtitle">PROJECTS</span>
-            <h2 className="section-title">Featured Projects</h2>
+            <h2 className="section-title">Featured Project</h2>
           </div>
         
         </div>
@@ -85,38 +81,18 @@ export default function Portfolio() {
         <div className="project-list">
           <div className="project-row">
             <div className="project-image-wrapper">
-              <img src="myprofile.png" alt="Monolith App" />
+              <img src="proj1.jpg" alt="TRADETIME" />
             </div>
             <div className="project-info">
-              <span className="project-meta">CONCEPT DESIGN / 2024</span>
-              <h3 className="project-title">Monolith App Interface</h3>
+              <span className="project-meta">CONCEPT DESIGN</span>
+              <h3 className="project-title">TRADE TIME WEB</h3>
               <p className="project-desc">A radical redesign of a financial management tool, stripping away complexity to reveal a serene, data-focused experience.</p>
-              <a href="#" className="link-underline">Explore Project</a>
+              <a href="https://www.figma.com/proto/6f84eTidHmfcYpnED6RjkJ?node-id=548-2960&t=NsReWMVujX7cmRvY-6" className="link-underline">Explore Project</a>
             </div>
           </div>
 
-          <div className="project-row reversed">
-            <div className="project-info">
-              <span className="project-meta">IDENTITY / 2023</span>
-              <h3 className="project-title">Aurora Wellness</h3>
-              <p className="project-desc">Digital presence for a premium wellness retreat, utilizing immersive imagery and typographic rhythm to induce calm.</p>
-              <a href="#" className="link-underline">Explore Project</a>
-            </div>
-            <div className="project-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Aurora Wellness" />
-            </div>
-          </div>
-          <div className="project-row">
-            <div className="project-image-wrapper">
-              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80" alt="The Curator Store" />
-            </div>
-            <div className="project-info">
-              <span className="project-meta">E-COMMERCE / 2023</span>
-              <h3 className="project-title">The Curator Store</h3>
-              <p className="project-desc">An editorial-first e-commerce experience that treats products like museum artifacts, emphasizing story over price tags.</p>
-              <a href="#" className="link-underline">Explore Project</a>
-            </div>
-          </div>
+  
+         
         </div>
       </section>
       <section id="contact" className="contact-section section-padding bg-white">
