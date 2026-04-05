@@ -38,7 +38,7 @@ export default function Portfolio() {
           <span className="section-subtitle">ABOUT ME</span>
           <h2 className="section-title">UI/UX DESIGNER</h2>
           <div className="about-text">
-            <p>Cradfting high quality prototypes in figma with focus and clean typography, and intuitive navigation.</p>
+            <p>Crafting high quality prototypes in figma with focus and clean typography, and intuitive navigation.</p>
             <p>I am a designer with a background in Information Technology. I design how interface looks and feels.</p>
           </div>
         </div>
