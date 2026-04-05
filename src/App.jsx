@@ -29,7 +29,7 @@ export default function Portfolio() {
           <a href="#projects" className="link-underline">VIEW SELECTED WORK</a>
         </div>
         <div className="hero-image-wrapper">
-          <img src="myprof.png" alt="Hero 3D Character" className="hero-image" />
+          <img src="prof2.png" alt="Hero 3D Character" className="hero-image" />
           
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function Portfolio() {
         <div className="project-list">
           <div className="project-row">
             <div className="project-image-wrapper">
-              <img src="proj1.jpg" alt="TRADETIME" />
+              <img src="prof2.png" alt="TRADETIME" />
             </div>
             <div className="project-info">
               <span className="project-meta">CONCEPT DESIGN</span>
