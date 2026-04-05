@@ -29,7 +29,7 @@ export default function Portfolio() {
           <a href="#projects" className="link-underline">VIEW SELECTED WORK</a>
         </div>
         <div className="hero-image-wrapper">
-          <img src="prof2.png" alt="Hero 3D Character" className="hero-image" />
+          <img src="profile1.png" alt="Hero 3D Character" className="hero-image" />
           
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="about-image-wrapper">
-          <img src="myprof.png" alt="Profile Illustration" className="about-image" />
+          <img src="profile1.png" alt="Profile Illustration" className="about-image" />
         </div>
       </section>
       <section id="skills" className="skills-section section-padding bg-white">
@@ -81,7 +81,7 @@ export default function Portfolio() {
         <div className="project-list">
           <div className="project-row">
             <div className="project-image-wrapper">
-              <img src="prof2.png" alt="TRADETIME" />
+              <img src="proj1.jpg" alt="TRADETIME" />
             </div>
             <div className="project-info">
               <span className="project-meta">CONCEPT DESIGN</span>
