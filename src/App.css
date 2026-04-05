@@ -1,4 +1,4 @@
-/* Globals */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -46,7 +46,6 @@ ul {
 
 .text-center { text-align: center; }
 
-/* Typography */
 .section-subtitle {
   font-size: 0.75rem;
   letter-spacing: 2px;
@@ -84,7 +83,7 @@ ul {
   opacity: 0.6;
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -130,7 +129,7 @@ ul {
   cursor: pointer;
 }
 
-/* Hero Section */
+
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -199,7 +198,6 @@ ul {
   letter-spacing: 1px;
 }
 
-/* About Section */
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -236,7 +234,6 @@ ul {
   object-fit: cover;
 }
 
-/* Skills Section */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -270,7 +267,6 @@ ul {
   font-size: 0.95rem;
 }
 
-/* Projects Section */
 .projects-header {
   display: flex;
   justify-content: space-between;
@@ -332,7 +328,6 @@ ul {
   font-size: 1.05rem;
 }
 
-/* Contact Section */
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -419,7 +414,6 @@ ul {
   margin-top: 20px;
 }
 
-/* Footer */
 .footer {
   padding: 40px 5%;
   border-top: 1px solid #eaeaea;
@@ -440,7 +434,7 @@ ul {
   gap: 30px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 1024px) {
   .hero-section, .about-section, .contact-container {
     grid-template-columns: 1fr;
@@ -470,6 +464,6 @@ ul {
   }
   
   .nav-links {
-    display: none; /* Add hamburger menu logic for mobile in production */
+    display: none; 
   }
 }
