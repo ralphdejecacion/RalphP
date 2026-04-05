@@ -86,7 +86,7 @@ export default function Portfolio() {
             <div className="project-info">
               <span className="project-meta">CONCEPT DESIGN</span>
               <h3 className="project-title">TRADE TIME WEB</h3>
-              <p className="project-desc">A radical redesign of a financial management tool, stripping away complexity to reveal a serene, data-focused experience.</p>
+              <p className="project-desc">A comprehensive TradeTime platform design of a financial management tool, stripping away complexity to reveal a serene, data-focused experience.</p>
               <a href="https://www.figma.com/proto/6f84eTidHmfcYpnED6RjkJ?node-id=548-2960&t=NsReWMVujX7cmRvY-6" className="link-underline">Explore Project</a>
             </div>
           </div>
