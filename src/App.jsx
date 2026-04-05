@@ -20,7 +20,7 @@ export default function Portfolio() {
             <span className="dot"></span> Hi, Im
           </div>
           <h1 className="hero-title">
-            RALPH MICHEAL <span className="text-accent">DEJECACION</span>
+            RALPH MICHAEL <span className="text-accent">DEJECACION</span>
           </h1>
           <h2>UI/UX DESIGNER</h2>
           <p className="hero-desc">
@@ -138,7 +138,7 @@ export default function Portfolio() {
       </section>
       <footer className="footer bg-light">
         <div className="footer-content">
-          <p>© 2026 RALPH MICHEAL DEJECACION. PORTFOLIO.</p>
+          <p>© 2026 RALPH MICHAEL DEJECACION. PORTFOLIO.</p>
           <div className="footer-links">
             <a href="https://github.com/ralphdejecacion">GitHub</a>
             <a href="https://www.facebook.com/share/1DHYCcyMcj/">Facebook</a>
