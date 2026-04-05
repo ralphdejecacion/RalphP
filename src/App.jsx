@@ -38,8 +38,8 @@ export default function Portfolio() {
           <span className="section-subtitle">ABOUT ME</span>
           <h2 className="section-title">UI/UX DESIGNER</h2>
           <div className="about-text">
-            <p>With over eight years of experience in the editorial and digital landscape, my journey has been defined by a relentless pursuit of "The Essential." I believe that every pixel should serve a purpose and every void should invite contemplation.</p>
-            <p>Starting in print media before transitioning to high-end digital experiences, I've learned that the strongest designs are those that facilitate seamless human interaction without shouting for attention.</p>
+            <p>Cradfting high quality prototypes in figma with focus and clean typography, and intuitive navigation.</p>
+            <p>I am a designer with a background in Information Technology. I design how interface looks and feels.</p>
           </div>
         </div>
         <div className="about-image-wrapper">
